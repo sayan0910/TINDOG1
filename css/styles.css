@@ -1,0 +1,156 @@
+body{
+    font-family: 'Monserrat',sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.nav-brand{
+    color: white;
+}
+.row{
+    padding: 3% 10%;
+    
+}
+
+.container-fluid{
+    padding: 3%;
+}
+.dog-title{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+h1{
+    padding: 0px 20px 0px 50px;
+    font-family: 'Monserrat',sans-serif;
+    
+}
+h3{
+    font-family: 'Monserrat',sans-serif;
+}
+.dog-id{
+    
+    line-height: 3rem;
+    padding: 5% 25% 5% 25%;
+    
+}
+.navbar-brand{
+    padding-left: 165px; 
+}
+.top-button{
+    
+    position: relative;
+    left: 50px;
+    top: 40px;
+    margin: 3% 3% 0% 0%;
+}
+.iphone{
+    height: 420px;
+    width: 300px;
+    transform: rotate(25deg);
+    position: relative;
+    left: 80px;
+}
+.nav-item{
+    position: relative;
+    right: 350px;
+    margin: 10%;
+}
+#features{
+    padding: 3% 0% ;
+    text-align: center;
+}
+.feature-box{
+    text-align: center;
+    padding: 3% 5%  ;
+    
+}
+.dog-criteria{
+    text-align: left;
+    padding: 1% 2%;
+    color: grey;
+}
+.fa-4x{
+    color: #ef8172;
+    padding: 20px;
+}
+.fa-4x:hover{
+    color: #ff4c68;
+}
+.grey{
+    color: grey;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#testimonials{
+    text-align: center;
+   
+    background-color: #ff4c68 ;
+    color: white;
+
+}
+.dog{
+    width: 10%; 
+   border-radius: 100%;
+   position: relative;
+   bottom: 50px;
+}
+.dog-class{
+    position: relative;
+   bottom: 50px;
+   padding: 2%;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68 ;
+    padding-bottom: 5%;
+}
+.logo{
+    width: 17%;
+
+}
+.card{
+    text-align: center;
+    padding: 2%;
+}
+p{
+    color: grey;
+}
+#cta{
+background-color:  #ff4c68 ;
+text-align: center;
+padding: 5% 10% ;
+color: white;
+}
+.caller{
+    padding-bottom: 5%;
+}
+.call-button{
+    margin: 1% 1% 0% 0%;
+}
+#footer{
+    text-align: center;
+    margin: 5%;
+
+}
+.fa-2x{
+    padding: 3% 1% ;
+}
+@media (max-width : 1028px) {
+    .navbar-brand{
+        padding-left: 40px; 
+    }
+    h1{
+        text-align: center;
+    }
+    .iphone{
+        transform: rotate(0);
+        padding-top: 20%;
+        
+    }
+    .dog,.dog-class{
+        padding-top: 5%;
+    }
+}
